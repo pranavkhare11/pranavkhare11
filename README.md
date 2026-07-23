@@ -75,7 +75,7 @@ A comprehensive web development project demonstrating modern JavaScript practice
 ## 📫 Connect With Me
 
 - **GitHub**: [@pranavkhare11](https://github.com/pranavkhare11)
-- **Email**: [Add your email here]
+- **Email**: [khare.pranavmhs@gmail.com]
 - **Portfolio**: [Add your portfolio link here]
 - **LinkedIn**: [Add your LinkedIn here]
 - **Twitter**: [Add your Twitter handle here]
