@@ -3,7 +3,7 @@
 **Software Engineer · Backend & Full-Stack JavaScript**  
 Indore, Madhya Pradesh, India
 
-I build web applications and backend systems with JavaScript and TypeScript. My work includes REST APIs, authentication, asynchronous workflows, caching, and database-backed system design. I also use AI-assisted development tools as part of my workflow while focusing on understanding the implementation, trade-offs, and behavior of the code.
+I build web applications and backend systems with JavaScript and TypeScript. My work includes REST APIs, authentication, asynchronous workflows, caching, and database-backed system design. I use AI-assisted development tools to speed up iteration while focusing on understanding the implementation, trade-offs, and behavior of the code.
 
 - **Languages:** JavaScript, TypeScript
 - **Backend:** Node.js, Fastify, Express.js
@@ -20,20 +20,20 @@ I build web applications and backend systems with JavaScript and TypeScript. My 
 ### [Cloud Storage Ecosystem](https://github.com/pranavkhare11/express-file-preview-server)
 **Node.js · Express.js · Aerospike · JavaScript**
 
-A backend for file uploads, previews/streaming, and a database-driven virtual filesystem.
+A cloud file-management backend with a database-driven virtual filesystem.
 
-- Separates users' logical folder hierarchies from physical file storage, keeping files physically flat while exposing nested folders in the application.
+- Separates the logical folder hierarchy from physical storage, keeping files physically flat while exposing nested folders to users.
 - Implements copy, cut, paste, move, rename, delete, and recursive directory operations through filesystem metadata.
 - Models file and directory relationships in Aerospike using unique file identifiers.
-- Supports virtual references to the same underlying data for duplication without copying the file itself, along with user-specific physical storage isolation.
+- Supports virtual references to underlying file data for duplication without making another physical copy, plus user-specific storage isolation.
 
-### [Project Management Tracker](https://github.com/pranavkhare11)
+### Project Management Tracker
 **Node.js · TypeScript · MongoDB**
 
-Backend development work focused on maintainability, authentication, and operational concerns.
+Backend engineering work focused on maintainability, authentication, caching, and observability.
 
-- Migrated backend logging from `hapi-good` to `hapi-pino`, removing 30+ lines of legacy code and improving observability.
-- Built a cache provider compatible with both Redis and Valkey, allowing the cache engine to be switched without changing application logic.
+- Migrated backend logging from `hapi-good` to `hapi-pino`, removing 30+ lines of legacy code.
+- Built a cache provider compatible with Redis and Valkey, allowing the cache engine to be switched without changing application logic.
 - Replaced phone-based OTP authentication with Gmail OAuth2 using `googleapis`.
 - Standardized TypeScript user schemas and authentication state management.
 
@@ -44,7 +44,7 @@ A peer-to-peer file-sharing application that transfers file data directly betwee
 
 - Establishes peer connections using unique peer IDs.
 - Supports real-time file exchange and transfer progress tracking.
-- Provides a responsive React interface with drag-and-drop file selection using React Dropzone.
+- Includes a responsive React interface with drag-and-drop file selection using React Dropzone.
 - Built with Vite, React Router DOM, and CSS.
 
 ---
@@ -75,6 +75,15 @@ A peer-to-peer file-sharing application that transfers file data directly betwee
 
 ---
 
+## More Projects
+
+- [GitHub Profiler](https://github.com/pranavkhare11/Github-Profiler) — A React and TypeScript application for viewing GitHub profile, contribution, and repository analytics.
+- [LeetCode Solutions](https://github.com/pranavkhare11/LeetCode-Solutions) — A collection of data-structure and algorithm practice.
+- [CSSBattle](https://github.com/pranavkhare11/CSSBattle) — CSS challenge submissions.
+- [Feane 2.0](https://github.com/pranavkhare11/feane-2.0.0) — A React and Vite implementation of a restaurant website.
+
+---
+
 ## Education
 
 **Bachelor of Technology, Computer Science & Engineering**  
@@ -90,4 +99,4 @@ Rajiv Gandhi Proudyogiki Vishwavidyalaya · Bhopal, Madhya Pradesh
 
 ---
 
-*I’m interested in building reliable backend services, exploring system design trade-offs, and making applications easier to maintain.*
+*Interested in reliable backend services, system-design trade-offs, and maintainable applications.*
