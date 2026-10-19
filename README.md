@@ -1,115 +1,93 @@
-# 👋 Welcome to My GitHub Profile!
+# Hi, I'm Pranav Khare 👋
 
-Hi there! I'm **Pranav Khare**, a passionate full-stack developer exploring web technologies, algorithms, and creative coding challenges.
+**Software Engineer · Backend & Full-Stack JavaScript**  
+Indore, Madhya Pradesh, India
 
----
+I build web applications and backend systems with JavaScript and TypeScript. My work includes REST APIs, authentication, asynchronous workflows, caching, and database-backed system design. I also use AI-assisted development tools as part of my workflow while focusing on understanding the implementation, trade-offs, and behavior of the code.
 
-## 🚀 About Me
-
-I'm a dedicated developer interested in:
-- **Web Development** (JavaScript, TypeScript, React)
-- **Problem Solving** (LeetCode, Algorithm Design)
-- **Creative Coding** (CSS Battles, Interactive Projects)
-- **Open Source** (Contributing to meaningful projects)
-
-Currently working on innovative projects that bridge technology with real-world applications.
-
----
-
-## 🛠️ Tech Stack
-
-### Languages & Frameworks
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+- **Languages:** JavaScript, TypeScript
+- **Backend:** Node.js, Fastify, Express.js
+- **Frontend:** React, HTML5, CSS3
+- **Databases:** MongoDB, Aerospike
+- **Caching:** Redis, Valkey
+- **Tools:** Git, GitHub, VS Code
+- **AI-assisted development:** GitHub Copilot, Gemini, Claude
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
-### 🔗 [Beacon-Share](https://github.com/pranavkhare11/Beacon-Share)
-A modern web application for sharing and discovering content. Built with JavaScript and cutting-edge web technologies.
+### [Cloud Storage Ecosystem](https://github.com/pranavkhare11/express-file-preview-server)
+**Node.js · Express.js · Aerospike · JavaScript**
 
-### 💻 [Github-Profiler](https://github.com/pranavkhare11/Github-Profiler)
-A TypeScript-based tool for analyzing and profiling GitHub repositories and user statistics.
+A backend for file uploads, previews/streaming, and a database-driven virtual filesystem.
 
-### 🧩 [LeetCode Solutions](https://github.com/pranavkhare11/LeetCode-Solutions)
-My collection of algorithm and data structure solutions with detailed explanations and optimizations.
+- Separates users' logical folder hierarchies from physical file storage, keeping files physically flat while exposing nested folders in the application.
+- Implements copy, cut, paste, move, rename, delete, and recursive directory operations through filesystem metadata.
+- Models file and directory relationships in Aerospike using unique file identifiers.
+- Supports virtual references to the same underlying data for duplication without copying the file itself, along with user-specific physical storage isolation.
 
-### 🎨 [CSS Battle Submissions](https://github.com/pranavkhare11/CSSBattle)
-Creative CSS solutions showcasing design skills and responsive coding techniques.
+### [Project Management Tracker](https://github.com/pranavkhare11)
+**Node.js · TypeScript · MongoDB**
 
-### 🍽️ [Feane 2.0.0](https://github.com/pranavkhare11/feane-2.0.0)
-A comprehensive web development project demonstrating modern JavaScript practices and architecture.
+Backend development work focused on maintainability, authentication, and operational concerns.
 
----
+- Migrated backend logging from `hapi-good` to `hapi-pino`, removing 30+ lines of legacy code and improving observability.
+- Built a cache provider compatible with both Redis and Valkey, allowing the cache engine to be switched without changing application logic.
+- Replaced phone-based OTP authentication with Gmail OAuth2 using `googleapis`.
+- Standardized TypeScript user schemas and authentication state management.
 
-## 📊 GitHub Stats
+### [Beacon Share](https://github.com/pranavkhare11/Beacon-Share)
+**React · WebRTC · PeerJS · JavaScript**
 
-```
-📈 Active across multiple projects in web development and algorithms
-🌟 Focused on clean code and best practices
-💡 Continuous learner exploring new technologies
-🔥 Building real-world applications
-```
+A peer-to-peer file-sharing application that transfers file data directly between peers rather than routing it through an intermediary server.
 
----
-
-## 🎯 Current Focus
-
-- ⚡ Building scalable web applications
-- 🧠 Deepening algorithmic problem-solving skills
-- 🌍 Contributing to open-source projects
-- 🚀 Exploring modern frontend frameworks and tools
-- 📚 Sharing knowledge through well-documented code
+- Establishes peer connections using unique peer IDs.
+- Supports real-time file exchange and transfer progress tracking.
+- Provides a responsive React interface with drag-and-drop file selection using React Dropzone.
+- Built with Vite, React Router DOM, and CSS.
 
 ---
 
-## 📫 Connect With Me
+## Technical Skills
 
-- **GitHub**: [@pranavkhare11](https://github.com/pranavkhare11)
-- **Email**: [khare.pranavmhs@gmail.com]
-- **Portfolio**: [Add your portfolio link here]
-- **LinkedIn**: [Add your LinkedIn here]
-- **Twitter**: [Add your Twitter handle here]
-
----
-
-## 💬 Let's Collaborate!
-
-I'm always interested in:
-- ✨ Contributing to exciting projects
-- 🤝 Collaborating with talented developers
-- 📚 Learning from the community
-- 🚀 Building something awesome together
-- 💡 Mentoring and being mentored
-
-Feel free to reach out if you'd like to connect, collaborate on a project, or just chat about code!
+| Area | Technologies |
+|---|---|
+| Programming languages | JavaScript, TypeScript |
+| Backend frameworks and runtime | Node.js, Fastify, Express.js |
+| Frontend | React, HTML5, CSS3 |
+| Databases | MongoDB, Aerospike |
+| Caching | Redis, Valkey |
+| Version control | Git, GitHub |
+| AI-assisted development | GitHub Copilot, Gemini, Claude |
 
 ---
 
-## 🏆 Highlights
+## Experience
 
-- 🎯 Problem solver with a focus on scalable solutions
-- 🎨 Creative developer who enjoys the intersection of design and functionality
-- 📖 Documentation enthusiast
-- 🌱 Always learning and improving
+**Software Engineering Intern — Vidhya Skill School**  
+*Indore, Madhya Pradesh · July 2025 – Present*
+
+- Develop full-stack JavaScript applications using React, Node.js, Fastify, and MongoDB, including REST APIs and frontend-backend integration.
+- Apply Promises, `async/await`, and event-loop concepts to non-blocking server-side and client-side workflows.
+- Build and consume REST APIs using Fetch and Axios, with interceptors for centralized authentication and error handling.
+- Work with Agile practices, daily scrums, sprint-based development, Git workflows, caching, asynchronous queues, pagination, and performance optimization.
 
 ---
 
-<div align="center">
+## Education
 
-**Happy Coding! 🎉**
+**Bachelor of Technology, Computer Science & Engineering**  
+Rajiv Gandhi Proudyogiki Vishwavidyalaya · Bhopal, Madhya Pradesh  
+*August 2019 – September 2023*
 
-*Last updated: July 2026*
+---
 
-*Visit my profile to see what I'm currently working on →*
+## Connect
 
-</div>
+- **GitHub:** [@pranavkhare11](https://github.com/pranavkhare11)
+- **Email:** [khare.pranavmhs@gmail.com](mailto:khare.pranavmhs@gmail.com)
+
+---
+
+*I’m interested in building reliable backend services, exploring system design trade-offs, and making applications easier to maintain.*
